@@ -48,7 +48,7 @@ Notes:
 Prepare the dataset as follows:
 
 ```text
-release_diffconv_umamba/
+GradMamba-Net/
 └── data/
     ├── Toronto3D_blocks/
     │   ├── <preprocessed_block_file_1>
