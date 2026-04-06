@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: GradMamba-Net
+message: "If you use this repository, please cite it as follows."
+type: software
+authors:
+  - family-names: Huang
+    given-names: He
+  - family-names: Zhang
+    given-names: Xintai
+  - family-names: Zhang
+    given-names: Yidan
+  - family-names: Yang
+    given-names: Junxing
+  - family-names: Liang
+    given-names: Yu
+doi: 10.5281/zenodo.19436275
+repository-code: https://github.com/zxt0217/GradMamba-Net
+license: MIT
+version: 1.0.1
+date-released: 2026-04-06
