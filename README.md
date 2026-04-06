@@ -1,4 +1,4 @@
-﻿# GradMamba-Net Release
+﻿# GradMamba-Net 
 
 This repository contains the official release for the paper:
 
