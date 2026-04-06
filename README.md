@@ -1,4 +1,5 @@
-﻿# GradMamba-Net 
+**DOI:** [10.5281/zenodo.19436275](https://doi.org/10.5281/zenodo.19436275)
+ # GradMamba-Net 
 
 This repository contains the official release for the paper:
 
@@ -166,7 +167,7 @@ If you find this repository useful, please cite the paper.
 ```bibtex
 @article{gradmambanet2026,
   title   = {Geometric Enhancement and Feature Reconstruction for Mamba-Based LiDAR Point Cloud Semantic Segmentation},
-  author  = {<Author Names>},
+  author  = {He Huang and Xintai Zhang and Yidan Zhang and Junxing Yang and Yu Liang},
   note    = {Under review at The Visual Computer},
   year    = {2026}
 }
