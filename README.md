@@ -80,7 +80,7 @@ python train_Toronto3D.py \
 ```
 
 The default released setting in `train_Toronto3D.py` uses:
-- `model=diffconv_umamba`
+- `model=Grad_umamba`
 - `epoch=150`
 - `batch_size=8`
 - `weighted_loss=True`
@@ -95,8 +95,8 @@ log/toronto3d_seg/gradmamba_toronto3d_main/
 ├── checkpoints/
 │   └── best_model.pth
 ├── logs/
-│   └── diffconv_umamba.txt
-└── diffconv_umamba.py
+│   └── Grad_umamba.txt
+└── Grad_umamba.py
 ```
 
 `best_model.pth` is selected automatically by the **highest validation block-level mIoU** on the held-out `L002` split.
