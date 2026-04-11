@@ -1,5 +1,6 @@
+# GradMamba-Net
+
 **DOI:** [10.5281/zenodo.19436275](https://doi.org/10.5281/zenodo.19436275)
- # GradMamba-Net 
 
 This repository contains the official release for the paper:
 
@@ -41,8 +42,9 @@ pip install -r requirements.txt
 ```
 
 Notes:
-- `mamba-ssm` is required for `diffconv_umamba`.
+- `mamba-ssm` is required for the released GradMamba-Net implementation.
 - The Toronto3D `grid_subsampling` C++ wrapper is optional. If unavailable, the code falls back to the Python/NumPy implementation.
+For code compatibility, some internal module or log file names still use legacy identifiers such as `Grad_umamba`. These names refer to the released GradMamba-Net implementation.
 
 ## Data Preparation
 
@@ -105,7 +107,7 @@ log/toronto3d_seg/gradmamba_toronto3d_main/
 
 We provide the checkpoint for the main Toronto3D result.
 
-- **File**: `diffconv_best.zip`
+- **File**: `gradmamba_net_best.zip`
 - **Checkpoint inside**: `best_model.pth`
 - **Selection rule**: best validation mIoU on the `L002` split
 - **Baidu Netdisk**: https://pan.baidu.com/s/1yFi_RGZ3K3pbrRoFKwbTDw?pwd=1234
